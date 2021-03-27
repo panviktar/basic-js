@@ -1,11 +1,14 @@
-// const CustomError = require("../extensions/custom-error");
+const CustomError = require("../extensions/custom-error");
 
-module.exports = function countCats(arr) {
-    let newArr = arr.flat().filter((item) => {
-        return typeof item === "string";
-    });
-    // console.log(newArr);
-    // console.log(+newArr.length);
-    if (newArr.length === 0) return +0;
-    return +newArr.length;
+module.exports = function countCats(matrix) {
+  let counter = 0;
+  let target = '^^';
+  for (let i = 0; i < matrix.length; i++) {
+      for (let j = 0; j < matrix[i].length; j++) {
+          if (matrix[i][j] === target) {
+              counter ++;
+          }
+      }
+  }
+  return counter;
 };
