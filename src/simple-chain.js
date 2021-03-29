@@ -13,11 +13,12 @@ const chainMaker = {
     return this;
   },
   removeLink(position) {
-    if (typeof (position) === 'number' && position <= this.arr.length && position >= 0) {
-      return this.arr.splice(position - 1, 1);
-    }
-    this.arr = [];
-    throw new Error();
+    if (isNaN(position) || position <= 0 || position > this.arr.length) {
+      this.arr.length = 0;
+      throw new Error();
+    };
+    this.arr.splice(position - 1, 1);
+    return this;
   },
 
   reverseChain() {
