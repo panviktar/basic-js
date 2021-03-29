@@ -18,7 +18,6 @@ const chainMaker = {
     }
     this.arr = [];
     throw new Error();
-
   },
 
   reverseChain() {
@@ -26,7 +25,7 @@ const chainMaker = {
     return this;
   },
   finishChain() {
-    let result = this.arr.join("~~");
+    let result = this.arr.join(("~~"));
     this.arr = [];
     return result;
   },
