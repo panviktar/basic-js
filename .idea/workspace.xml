@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e6da08-343c-41bd-812d-bc1ae035a8ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carbon-dating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/carbon-dating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extended-repeater.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/extended-repeater.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simple-chain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-chain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vigenere-cipher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vigenere-cipher.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
       <workItem from="1616868746186" duration="17083000" />
       <workItem from="1617045080247" duration="905000" />
       <workItem from="1617046475475" duration="1664000" />
-      <workItem from="1617049442767" duration="1754000" />
+      <workItem from="1617049442767" duration="1934000" />
     </task>
     <servers />
   </component>
