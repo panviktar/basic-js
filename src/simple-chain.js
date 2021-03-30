@@ -13,7 +13,7 @@ const chainMaker = {
     return this;
   },
   removeLink(position) {
-    if (isNaN(position) || position <= 0 || position > this.arr.length) {
+    if (isNaN(position) || position <= 0 || position > this.arr.length ) {
       this.arr.length = 0;
       throw new Error();
     };
